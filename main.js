@@ -14,9 +14,10 @@ function setup() {
 }
 function draw(){
     background("grey");
+    textSize(diff);
     fill('yellow');
-    stroke('yellow');
-    shubham(noseX,noseY,diff);
+    text('shubham',noseX,noseY);
+    
     
 }
 function modelLoaded(){
